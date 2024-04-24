@@ -1,0 +1,167 @@
+{
+  "scenes": [
+    {
+      "text": "You wake up on a large golden throne surrounded by a buffet full of exotic cheeses and spread across the stone floor were shiny golden coins.",
+      "choices": [
+        {
+          "text": "Feast",
+          "next_scene": "mice"
+        },
+        {
+          "text": "Fill your pockets with gold",
+          "next_scene": "coins"
+        },
+        {
+          "text": "Jump out the window",
+          "next_scene": "window"
+        }
+      ]
+    },
+    {
+      "text": "You chose to enjoy a nice meal of cheese. After eating your 511th slice of cheese, you begin to notice a squeaking sound coming from the walls... Hundreds of mice start pouring out from a hole in the wall!",
+      "choices": [
+        {
+          "text": "Punch mice",
+          "next_scene": "mice2"
+        },
+        {
+          "text": "Give them cheese as a peace offering",
+          "next_scene": "castleRoute"
+        }
+      ]
+    },
+    {
+      "text": "Quick! Make a move before he does!",
+      "choices": [
+        {
+          "text": "Jab punch",
+          "next_scene": "castleRoute"
+        },
+        {
+          "text": "Jumping back kick",
+          "next_scene": "death"
+        }
+      ]
+    },
+    {
+      "text": "You ignored the cheese and started picking up coin after coin. You gained a total of 3 gold coins.",
+      "next_scene": "castleRoute"
+    },
+    {
+      "text": "You thought it would be a good idea to jump out the window...? As your body falls through the sky, you see two possible landing spots.",
+      "choices": [
+        {
+          "text": "The castle's crocodile-infested moat",
+          "next_scene": "crocodile"
+        },
+        {
+          "text": "The castle's courtyard",
+          "next_scene": "death"
+        }
+      ]
+    },
+    {
+      "text": "You're also starting to feel a large pain coming from your left leg. It's probably broken. And now you also see a large crocodile swimming towards you. What do you do?",
+      "choices": [
+        {
+          "text": "Let the crocodile come closer",
+          "next_scene": "witch"
+        },
+        {
+          "text": "Swim away from the crocodile",
+          "next_scene": "guards"
+        }
+      ]
+    },
+    {
+      "text": "After a while, the croc leaves you outside a hut made out of mud and twigs. The door to the hut automatically opens upon your arrival and before you stands a witch!",
+      "choices": [
+        {
+          "text": "She looks so hideous you try to pay her to go away",
+          "next_scene": "cursed"
+        },
+        {
+          "text": "Ask to be her apprentice",
+          "next_scene": "youAreAWizardHarry"
+        }
+      ]
+    },
+    {
+      "text": "After you are done with the room, you make your way down the castle's large stairway. Finally arriving at the castle's courtyard, you notice two groups of people: a young beautiful lady and some guards patrolling the grounds. Which one do you approach?",
+      "choices": [
+        {
+          "text": "Lady",
+          "next_scene": "lady"
+        },
+        {
+          "text": "Guards",
+          "next_scene": "guards"
+        }
+      ]
+    },
+    {
+      "text": "She looks you up and down with a worrying face. How will you sweep her off her feet?",
+      "choices": [
+        {
+          "text": "Wink and offer a gold coin",
+          "next_scene": "marriage"
+        },
+        {
+          "text": "Thy bottom is rounder than thy apple",
+          "next_scene": "guards"
+        }
+      ]
+    },
+    {
+      "text": "The guards look at you with suspicion. How do you get out of the tricky situation?",
+      "choices": [
+        {
+          "text": "Convince them you are also a guard",
+          "next_scene": "garry"
+        },
+        {
+          "text": "Try to bribe with gold",
+          "next_scene": "prison"
+        }
+      ]
+    }
+  ],
+  "endings": [
+    {
+      "text": "Marriage Ending: She signs the contract thinking she married rich, though little did she know you only had two gold coins left to your name.",
+      "id": 1
+    },
+    {
+      "text": "Beggar Ending: They think you are a beggar who has wandered into the castle by mistake. They pick you up and throw you into the street below the castle.",
+      "id": 2
+    },
+    {
+      "text": "Prison Ending: They knock you out cold and when you wake up you are in a prison cell.",
+      "id": 3
+    },
+    {
+      "text": "Freedom Ending: The guards run away screaming in fear. You are now free to leave the castle!",
+      "id": 4
+    },
+    {
+      "text": "Blessed Ending: Disgusted by your wounds, she heals you and also gives you a wonderful huge mustache!",
+      "id": 5
+    },
+    {
+      "text": "Cursed Ending: The curse turned you into a bald walking stick...",
+      "id": 6
+    },
+    {
+      "text": "Garry Ending: You continue to pretend being their great friend Garry for all eternity...",
+      "id": 7
+    },
+    {
+      "text": "You Are a Wizard Harry Ending: Your first mission as a powerful witch apprentice is to sweep the floor.",
+      "id": 8
+    },
+    {
+      "text": "Death Ending: You died an awful death surrounded by cheese and stinky mice...",
+      "id": 9
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let book = [
+            {
+                id: 0,
+                description: "Du vaknar upp i ett rum. Du ser en dörr och ett fönster.",
+                choices: [
+                    {
+                        description: "Gå till dörren",
+                        target: 1
+                    },
+                    {
+                        description: "Ät ost", 
+                        target: 2
+                    }
+                ]
+            },
+            {
+                id: 1,
+                description: "Du går till dörren.",
+                choices: [
+                    {
+                        description: "You ded", target: null
+                    }
+
+                ]
+            },
+            {
+                id: 2,
+                description: "Du äter ost tills du spricker",
+                choices: [
+                    {
+                        description: "Du exploderar, gå vidare...",
+                        target: 7
+                    }
+                ]
+            },
+            {
+                id:7,
+                description: "Du går ett fasansfullt öde till mötes, men vem bryr sig din själ är full av ost.",
+                choices: []
+            }
+        ]
+
+        function findPage(id) {
+            return book.find((page) => {
+                
+                return page.id === id;
+            })
+        }
+
+
+        function presentPage(page) {
+            console.log(page.description);
+            page.choices.forEach((choice) => {
+                console.log(choice.description);
+            })
+        }
+
+
+        page = 0
+
+        while (page !== null) {
+            console.log(page)
+            let currentPage = findPage(page);
+            console.log(currentPage)
+            presentPage(currentPage);
+            page = parseInt(prompt("Vad väljer du? "));
+        }
+    </script>
+</body>
+
+</html>
